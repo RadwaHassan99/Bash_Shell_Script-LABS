@@ -1,7 +1,7 @@
 function authenticate {
 	echo -n "Enter Email : "
 	read EMAIL
-	### Before adding, we want to check GPA valid floating point or no
+	### Before authinetication, we want to check EMAIL is valid or no
 	checkEMail ${EMAIL}
 	if [ ${?} -ne 0 ]; then
 		echo "The EMail is not a valid"
