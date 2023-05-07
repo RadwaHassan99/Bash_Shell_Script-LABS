@@ -1,0 +1,4 @@
+MYSQLHOST="localhost"
+MYSQLUSER="root"
+MYSQLPASS="12345"
+MYSQLDB="bash_day3"
